@@ -18,8 +18,8 @@ The application analyzes employee data and reports:
 
 ## Requirements
 
-- Java 17 or higher
-- Maven 3.6 or higher
+- Java
+- Maven
 
 ## Building the Application
 
@@ -125,7 +125,7 @@ organizational-analyzer/
 
 ### Code Quality
 - **Immutability**: Employee model uses final fields for thread safety
-- **Separation of Concerns**: Clear separation between data access (repository), business logic (services), and presentation (main class)
+- **Separation of Concerns**: separation between data access (repository), business logic (services), and presentation (main class)
 - **Testability**: Services accept repository as dependency for easy testing
 - **Readability**: Descriptive method and variable names, comprehensive comments
 
@@ -138,7 +138,7 @@ organizational-analyzer/
 - Unit tests for each component
 - Edge case testing (boundaries, empty data, invalid input)
 - Integration testing through temporary file creation
-- JUnit 5 for modern testing features
+- JUnit 5
 
 ## Example Output
 
@@ -157,16 +157,6 @@ Managers earning LESS than they should:
 
 Total issues found: 1 (1 underpaid, 0 overpaid)
 
-REPORTING LINE ANALYSIS
---------------------------------------------------------------------------------
 
-✓ All employees have acceptable reporting line length (max 4 managers).
-
-================================================================================
-ANALYSIS COMPLETE
-================================================================================
 ```
 
-## License
-
-This is a sample application for Big Company organizational analysis.
