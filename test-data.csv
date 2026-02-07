@@ -1,0 +1,16 @@
+Id,firstName,lastName,salary,managerId
+1,John,CEO,150000,
+10,Sarah,VP_Ops,90000,1
+11,Mike,VP_Sales,85000,1
+20,Anna,Director_Ops,55000,10
+21,Bob,Director_Ops,58000,10
+30,Charlie,Manager,40000,20
+31,Diana,Manager,42000,20
+32,Edward,Manager,41000,21
+40,Frank,TeamLead,32000,30
+41,Grace,TeamLead,33000,31
+42,Henry,TeamLead,31000,32
+50,Ian,Employee,25000,40
+51,Jane,Employee,26000,41
+52,Kevin,Employee,24000,42
+53,Laura,Employee,27000,40
